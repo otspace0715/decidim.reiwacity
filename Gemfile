@@ -9,7 +9,7 @@ gem "decidim", "0.23.3"
 # gem "decidim-initiatives", "0.23.3"
 # gem "decidim-templates", "0.23.3"
 
-gem "bootsnap", "~> 1.3"
+gem "bootsnap", "1.4.6"
 
 gem "puma", ">= 4.3.5"
 gem "uglifier", "~> 4.1"
@@ -44,4 +44,6 @@ gem "aws-sdk-s3", require: false
 
 gem 'fog-aws' 
 #gem 'fog', require: 'fog/aws'
+
+gem 'tzinfo-data'
 
