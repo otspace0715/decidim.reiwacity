@@ -11,7 +11,7 @@ gem "decidim", "0.23.3"
 
 gem "bootsnap", "1.4.6"
 
-gem "puma", ">= 4.3.5"
+gem "puma", "4.3.5"
 gem "uglifier", "~> 4.1"
 
 gem "faker", "~> 1.9"
@@ -26,8 +26,8 @@ end
 
 group :development do
   gem "letter_opener_web", "~> 1.3"
-  gem "listen", "~> 3.1"
-  gem "spring", "~> 2.0"
+  gem "listen", "3.2.1"
+  gem "spring", "2.1.0"
   gem "spring-watcher-listen", "~> 2.0"
   gem "web-console", "~> 3.5"
 end
@@ -46,4 +46,10 @@ gem 'fog-aws'
 #gem 'fog', require: 'fog/aws'
 
 gem 'tzinfo-data'
+gem 'rails', '5.2.4.4'
+gem 'doc2text', '0.4.2'
+gem 'ffi', '1.13.1'
+gem 'msgpack', '1.3.3'
+gem 'rake', '13.0.1'
+gem 'concurrent-ruby', '1.1.7'
 
